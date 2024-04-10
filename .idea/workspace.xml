@@ -4,20 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c466b663-eb5a-4cc7-afe7-28c570d472de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Convertor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RomanNumerals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RomaAndArabicConversionTest.java" afterDir="false" />
+    <list default="true" id="c466b663-eb5a-4cc7-afe7-28c570d472de" name="Changes" comment="Lab 1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ConvertorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Convertor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Convertor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RomaAndArabicConversionTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,28 +20,33 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="Lab-1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "IronMan-1970"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IronMan-1970&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/IronMan-1970/TDD_Labs.git",
-    "accountId": "98f07875-5591-4025-8b67-2a2d2cb98ddf"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IronMan-1970/TDD_Labs.git&quot;,
+    &quot;accountId&quot;: &quot;98f07875-5591-4025-8b67-2a2d2cb98ddf&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -60,14 +58,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ConvertorTest.executor": "Run",
+    "JUnit.ConvertorTest.whenRomanNumberIsEmpty.executor": "Run",
+    "JUnit.ConvertorTest.whenRomanNumberIsNullThenTrowException.executor": "Run",
+    "JUnit.ConvertorTest.whenRomanNumberIsTrashThenTrowException.executor": "Run",
+    "JUnit.ConvertorTest.whenTheRomanNumberIsIII_Then3.executor": "Run",
     "JUnit.RomaAndArabicConversionTest.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "Lab-2",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -86,8 +91,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="RomaAndArabicConversionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ConvertorTest">
+    <configuration name="ConvertorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Labs" />
       <extension name="coverage">
         <pattern>
@@ -96,15 +101,83 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.RomaAndArabicConversionTest" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ConvertorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertorTest.whenRomanNumberIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ConvertorTest" />
+      <option name="METHOD_NAME" value="whenRomanNumberIsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertorTest.whenRomanNumberIsNullThenTrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ConvertorTest" />
+      <option name="METHOD_NAME" value="whenRomanNumberIsNullThenTrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertorTest.whenRomanNumberIsTrashThenTrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ConvertorTest" />
+      <option name="METHOD_NAME" value="whenRomanNumberIsTrashThenTrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConvertorTest.whenTheRomanNumberIsIII_Then3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.ConvertorTest" />
+      <option name="METHOD_NAME" value="whenTheRomanNumberIsIII_Then3" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.RomaAndArabicConversionTest" />
+        <item itemvalue="JUnit.ConvertorTest" />
+        <item itemvalue="JUnit.ConvertorTest.whenRomanNumberIsTrashThenTrowException" />
+        <item itemvalue="JUnit.ConvertorTest.whenTheRomanNumberIsIII_Then3" />
+        <item itemvalue="JUnit.ConvertorTest.whenRomanNumberIsNullThenTrowException" />
+        <item itemvalue="JUnit.ConvertorTest.whenRomanNumberIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -125,11 +198,46 @@
       <option name="presentableId" value="Default" />
       <updated>1712582484529</updated>
       <workItem from="1712582485583" duration="2339000" />
-      <workItem from="1712648684633" duration="5207000" />
+      <workItem from="1712648684633" duration="19095000" />
+      <workItem from="1712679079169" duration="1485000" />
+      <workItem from="1712733609340" duration="1237000" />
     </task>
+    <task id="LOCAL-00001" summary="Lab 1">
+      <option name="closed" value="true" />
+      <created>1712658563513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712658563513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lab 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/Convertor.java</url>
+          <line>18</line>
+          <properties class="org.example.Convertor" method="convertRomanToArabic">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/TDD_Labs$ConvertorTest_whenRomanNumberIsTrashThenTrowException.ic" NAME="ConvertorTest.whenRomanNumberIsTrashThenTrowException Coverage Results" MODIFIED="1712678863234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>org.example.*</FILTER>
+    </SUITE>
   </component>
 </project>

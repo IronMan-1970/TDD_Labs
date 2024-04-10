@@ -4,13 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c466b663-eb5a-4cc7-afe7-28c570d472de" name="Changes" comment="Lab 1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/ConvertorTest.java" afterDir="false" />
+    <list default="true" id="c466b663-eb5a-4cc7-afe7-28c570d472de" name="Changes" comment="Lab 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/CompanyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/ICompanyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/CompanyServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Convertor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Convertor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/RomaAndArabicConversionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Convertor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/RomanNumerals.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/ConvertorTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +25,7 @@
       <list>
         <option value="JUnit4 Test Class" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
@@ -30,7 +34,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Lab-1" />
+        <entry key="$PROJECT_DIR$" value="Lab-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,13 +55,17 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2eostrWzVocr1uZWo2b0gul2YXH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.CompanyServiceImplTest.executor": "Run",
+    "JUnit.CompanyServiceImplTest.whenCompanyInTheTopOfChainThenThereMightBe23Workers.executor": "Debug",
     "JUnit.ConvertorTest.executor": "Run",
     "JUnit.ConvertorTest.whenRomanNumberIsEmpty.executor": "Run",
     "JUnit.ConvertorTest.whenRomanNumberIsNullThenTrowException.executor": "Run",
@@ -72,7 +80,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "Lab-2",
+    "git-widget-placeholder": "Lab-3",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -84,6 +92,9 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -91,7 +102,38 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ConvertorTest">
+  <component name="RunManager" selected="JUnit.CompanyServiceImplTest">
+    <configuration name="CompanyServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CompanyServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompanyServiceImplTest.whenCompanyInTheTopOfChainThenThereMightBe23Workers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_Labs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.CompanyServiceImplTest" />
+      <option name="METHOD_NAME" value="whenCompanyInTheTopOfChainThenThereMightBe23Workers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ConvertorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Labs" />
       <extension name="coverage">
@@ -103,38 +145,6 @@
       <option name="PACKAGE_NAME" value="org.example" />
       <option name="MAIN_CLASS_NAME" value="org.example.ConvertorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConvertorTest.whenRomanNumberIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD_Labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ConvertorTest" />
-      <option name="METHOD_NAME" value="whenRomanNumberIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConvertorTest.whenRomanNumberIsNullThenTrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TDD_Labs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.ConvertorTest" />
-      <option name="METHOD_NAME" value="whenRomanNumberIsNullThenTrowException" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -173,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CompanyServiceImplTest" />
+        <item itemvalue="JUnit.CompanyServiceImplTest.whenCompanyInTheTopOfChainThenThereMightBe23Workers" />
         <item itemvalue="JUnit.ConvertorTest" />
         <item itemvalue="JUnit.ConvertorTest.whenRomanNumberIsTrashThenTrowException" />
         <item itemvalue="JUnit.ConvertorTest.whenTheRomanNumberIsIII_Then3" />
-        <item itemvalue="JUnit.ConvertorTest.whenRomanNumberIsNullThenTrowException" />
-        <item itemvalue="JUnit.ConvertorTest.whenRomanNumberIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -200,7 +210,8 @@
       <workItem from="1712582485583" duration="2339000" />
       <workItem from="1712648684633" duration="19095000" />
       <workItem from="1712679079169" duration="1485000" />
-      <workItem from="1712733609340" duration="1237000" />
+      <workItem from="1712733609340" duration="2462000" />
+      <workItem from="1712742033086" duration="16965000" />
     </task>
     <task id="LOCAL-00001" summary="Lab 1">
       <option name="closed" value="true" />
@@ -210,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712658563513</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lab 2">
+      <option name="closed" value="true" />
+      <created>1712737101498</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712737101498</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -218,19 +237,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Lab 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lab 1" />
+    <MESSAGE value="Lab 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lab 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/org/example/Convertor.java</url>
-          <line>18</line>
-          <properties class="org.example.Convertor" method="convertRomanToArabic">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/example/CompanyServiceImpl.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

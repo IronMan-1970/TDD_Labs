@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c466b663-eb5a-4cc7-afe7-28c570d472de" name="Changes" comment="lab 4" />
+    <list default="true" id="c466b663-eb5a-4cc7-afe7-28c570d472de" name="Changes" comment="lab 4">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tdd_labs_spb/repository/ItemRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tdd_labs_spb/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tdd_labs_spb/model/Item.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,10 +17,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="JUnit4 Test Class" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -54,7 +58,7 @@
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master",
@@ -77,6 +81,7 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.example.tdd_labs_spb.repository" />
       <recent name="org.example" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -164,6 +169,7 @@
       <workItem from="1712648684633" duration="5207000" />
       <workItem from="1712823572850" duration="94000" />
       <workItem from="1712823673638" duration="12773000" />
+      <workItem from="1712865964657" duration="5854000" />
     </task>
     <task id="LOCAL-00001" summary="lab 4">
       <option name="closed" value="true" />

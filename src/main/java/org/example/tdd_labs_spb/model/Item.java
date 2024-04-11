@@ -21,4 +21,9 @@ public class Item {
     private String code;
     private String description;
 
+    public Item(String name, String code, String description) {
+        this.name = name;
+        this.code = code;
+        this.description = description;
+    }
 }

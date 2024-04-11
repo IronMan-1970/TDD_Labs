@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c466b663-eb5a-4cc7-afe7-28c570d472de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Convertor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RomanNumerals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/RomaAndArabicConversionTest.java" afterDir="false" />
+    <list default="true" id="c466b663-eb5a-4cc7-afe7-28c570d472de" name="Changes" comment="lab 4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tdd_labs_spb/controller/ItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tdd_labs_spb/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tdd_labs_spb/repository/ItemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/tdd_labs_spb/service/ItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tdd_labs_spb/TddLabsSpbApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tdd_labs_spb/TddLabsSpbArchitectureTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/tdd_labs_spb/TddLabsSpbArchitectureTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,23 +32,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "IronMan-1970"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;IronMan-1970&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/IronMan-1970/TDD_Labs.git",
-    "accountId": "98f07875-5591-4025-8b67-2a2d2cb98ddf"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/IronMan-1970/TDD_Labs.git&quot;,
+    &quot;accountId&quot;: &quot;98f07875-5591-4025-8b67-2a2d2cb98ddf&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2eostrWzVocr1uZWo2b0gul2YXH" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,6 +58,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.RomaAndArabicConversionTest.executor": "Run",
+    "JUnit.TddLabsSpbArchitectureTests.executor": "Run",
+    "JUnit.org.example.tdd_labs_spb in TDD_Labs_Spb.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -74,7 +73,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -85,8 +84,11 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="org.example" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.tdd_labs_spb" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TddLabsSpbArchitectureTests">
     <configuration name="RomaAndArabicConversionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Labs" />
       <extension name="coverage">
@@ -102,8 +104,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TddLabsSpbArchitectureTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_Labs_Spb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tdd_labs_spb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tdd_labs_spb" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tdd_labs_spb.TddLabsSpbArchitectureTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example.tdd_labs_spb in TDD_Labs_Spb" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_Labs_Spb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tdd_labs_spb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tdd_labs_spb" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TddLabsSpbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="TDD_Labs_Spb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.tdd_labs_spb.TddLabsSpbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TddLabsSpbArchitectureTests" />
+        <item itemvalue="JUnit.org.example.tdd_labs_spb in TDD_Labs_Spb" />
         <item itemvalue="JUnit.RomaAndArabicConversionTest" />
       </list>
     </recent_temporary>
@@ -126,10 +167,29 @@
       <updated>1712582484529</updated>
       <workItem from="1712582485583" duration="2339000" />
       <workItem from="1712648684633" duration="5207000" />
+      <workItem from="1712823572850" duration="94000" />
+      <workItem from="1712823673638" duration="8600000" />
     </task>
+    <task id="LOCAL-00001" summary="lab 4">
+      <option name="closed" value="true" />
+      <created>1712822441861</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712822441861</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 4" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

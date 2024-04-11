@@ -7,5 +7,5 @@ package org.example.tdd_labs_spb;/*
 */
 
 public class TddLabsSpbArchitectureTests {
-    sds
+
 }

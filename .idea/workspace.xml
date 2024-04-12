@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c466b663-eb5a-4cc7-afe7-28c570d472de" name="Changes" comment="lab 4">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/tdd_labs_spb/repository/ItemRepositoryTest.java" afterDir="false" />
+    <list default="true" id="c466b663-eb5a-4cc7-afe7-28c570d472de" name="Changes" comment="lab 5">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tdd_labs_spb/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tdd_labs_spb/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/tdd_labs_spb/repository/ItemRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/tdd_labs_spb/repository/ItemRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
         <option value="Enum" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Dockerfile" />
       </list>
     </option>
   </component>
@@ -50,29 +52,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.RomaAndArabicConversionTest.executor": "Run",
-    "JUnit.TddLabsSpbArchitectureTests.executor": "Run",
-    "JUnit.org.example.tdd_labs_spb in TDD_Labs_Spb.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/antihetman/IdeaProjects/TDD_Labs_Spb/src/test",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.ItemRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RomaAndArabicConversionTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TddLabsSpbArchitectureTests.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.org.example.tdd_labs_spb in TDD_Labs_Spb.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/antihetman/IdeaProjects/TDD_Labs_Spb/src/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
@@ -88,7 +91,22 @@
       <recent name="org.example.tdd_labs_spb" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TddLabsSpbArchitectureTests">
+  <component name="RunManager" selected="JUnit.ItemRepositoryTest">
+    <configuration name="ItemRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD_Labs_Spb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.tdd_labs_spb.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.tdd_labs_spb.repository" />
+      <option name="MAIN_CLASS_NAME" value="org.example.tdd_labs_spb.repository.ItemRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RomaAndArabicConversionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD_Labs" />
       <extension name="coverage">
@@ -143,6 +161,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItemRepositoryTest" />
         <item itemvalue="JUnit.TddLabsSpbArchitectureTests" />
         <item itemvalue="JUnit.org.example.tdd_labs_spb in TDD_Labs_Spb" />
         <item itemvalue="JUnit.RomaAndArabicConversionTest" />
@@ -169,7 +188,9 @@
       <workItem from="1712648684633" duration="5207000" />
       <workItem from="1712823572850" duration="94000" />
       <workItem from="1712823673638" duration="12773000" />
-      <workItem from="1712865964657" duration="5854000" />
+      <workItem from="1712865964657" duration="7025000" />
+      <workItem from="1712873682156" duration="470000" />
+      <workItem from="1712903319034" duration="1817000" />
     </task>
     <task id="LOCAL-00001" summary="lab 4">
       <option name="closed" value="true" />
@@ -195,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712863349030</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="lab 5">
+      <option name="closed" value="true" />
+      <created>1712871893093</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712871893093</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +232,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 4" />
+    <MESSAGE value="lab 5" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab 5" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

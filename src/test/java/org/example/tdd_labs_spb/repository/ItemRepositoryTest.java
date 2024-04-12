@@ -12,6 +12,7 @@ import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /*
   @author   antihetman
@@ -90,13 +91,14 @@ class ItemRepositoryTest {
           Item item = underTest.findAll().stream()
                   .filter(it -> it.getCode().equals("00001"))
                   .findAny().orElse(null);
-          item.setDescription("changed item description");
+          item.setDescription("changed test-item description");
           //when
         underTest.save(item);
         //then
         Item changedItem = underTest.findAll().stream()
                 .filter(it -> it.getCode().equals("00001"))
                 .findAny().orElse(null);
-        assertEquals(changedItem.getDescription(),"changed item description");
+        assertEquals("changed test-item description",changedItem.getDescription());
+        assertEquals(item.getId(),changedItem.getId());
     }
 }
